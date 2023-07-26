@@ -26,11 +26,11 @@
 
 ###
 
-<p align="justify">Após as três etapas iniciais (modelagem conceitual, lógica e física), podemos seguir para a etapa de normalização do banco de dados. Segunda a Escola Alura, chegou a hora de "aprender a trabalhar com normalização de dados para reduzir a redundância, ganhar integridade e desempenho dos dados. Ainda sobre normalização, vamos conhecer a forma normal de Boyce-Codd, uma regra para tratar alguns tipos de anomalias no banco de dados".</p>
+<p align="justify">Após as três etapas iniciais (modelagem conceitual, lógica e física), podemos seguir para a etapa de normalização do banco de dados. Segunda a Escola Alura, chegou a hora de <i>"aprender a trabalhar com normalização de dados para reduzir a redundância, ganhar integridade e desempenho dos dados. Ainda sobre normalização, vamos conhecer a forma normal de Boyce-Codd, uma regra para tratar alguns tipos de anomalias no banco de dados"</i>.</p>
 
 ###
 
-<p align="justify">O Professor Max Roberto Pereira, da Universidade Cesumar - Maringá/PR, define normalização como "uma técnica de projeto de banco de dados que reduz a redundância de dados e elimina aspectos indesejáveis, como anomalias nas operações de inserção, alteração e eliminação." Desta forma, as tabelas maiores são divididas em tabelas menores, relacionando-se através do tipos de relacionamentos estudados nos projetos conceitual e lógico.</p>
+<p align="justify">O Professor Max Roberto Pereira, da Universidade Cesumar - Maringá/PR, define normalização como <i>"uma técnica de projeto de banco de dados que reduz a redundância de dados e elimina aspectos indesejáveis, como anomalias nas operações de inserção, alteração e eliminação."</i> Desta forma, as tabelas maiores são divididas em tabelas menores, relacionando-se através do tipos de relacionamentos estudados nos projetos conceitual e lógico.</p>
 
 ###
 
@@ -38,13 +38,13 @@
 
 ###
 
-<p align="left">Dependência Funcional:</p>
+<p align="left"><strong>Dependência Funcional</strong>:</p>
 - A dependência funcional estabelece uma relação de atributos dentro da tabela. Exemplo: CPF -> nome;
 - O atributo que determina o valor é chamado de Determinante. O outro atributo é chamado de Dependente.
 
 ###
 
-<p align="left">Primeira Forma Normal - 1FNPrimeira Forma Normal - 1FN</p>
+<p align="left"><strong>Primeira Forma Normal - 1FN</strong></p>
 <ul>
   <li>Evitar ter mais de um assunto em uma tabela;</li>
   <li>Possuir somente valores atômicos (indivisíveis);</li>
@@ -55,7 +55,7 @@
 
 ###
 
-<p align="left">Segunda Forma Normal - 2FN</p>
+<p align="left"><strong>Segunda Forma Normal - 2FN</strong></p>
 <ul>
   <li>Estar na Primeira Forma Normal;</li>
   <li>Atributos não-chave dependem da chave composta em sua totalidade.</li>
@@ -63,7 +63,7 @@
 
 ###
 
-<p align="left">Terceira Forma Normal - 3FN</p>
+<p align="left"><strong>Terceira Forma Normal - 3FN</strong></p>
 <ul>
   <li>Estar na Segunda Forma Normal;</li>
   <li>Se nenhuma coluna possui dependência transitiva em relação a outra coluna que não participe da chave primária.</li>
@@ -71,7 +71,7 @@
 
 ###
 
-<p align="left">Forma Normal de Boyce-Codd - FNBC</p>
+<p align="left"><strong>Forma Normal de Boyce-Codd - FNBC</strong></p>
 <ul>
   <li>Versão mais rigorosa da 3FN;</li>
   <li>Se e somente se todos os determinantes são chaves candidatas;</li>
@@ -80,7 +80,7 @@
 
 ###
 
-<p align="left">Quarta Forma Normal - 4FN</p>
+<p align="left"><strong>Quarta Forma Normal - 4FN</strong></p>
 <ul>
   <li>Estar na Terceira Forma Normal;</li>
   <li>Não ter mais de um atributo multivalorado.</li>
@@ -88,7 +88,7 @@
 
 ###
 
-<p align="left">Quinta Forma Normal - 5FN</p>
+<p align="left"><strong>Quinta Forma Normal - 5FN</strong></p>
 <ul>
   <li>Estar na Quarta Forma Normal;</li>
   <li>Não possuir dependência de junção.</li>
@@ -101,8 +101,10 @@
 ###
 
 <p align="left">REFERÊNCIAS:</p>
-- PEREIRA, Max Roberto. Banco de Dados e Mineração. Maringá - PR: Unicesumar, 2021. 228 p.
-- SILBERSCHATZ, Abraham; KORTH, S.; SUDARSHAN, Henry F. Sistema de Banco de Dados. 7. ed. Rio de Janeiro: GEN LTC, 2020. 754 p.
+<ul>
+<li><i>PEREIRA, Max Roberto. Banco de Dados e Mineração. Maringá - PR: Unicesumar, 2021. 228 p.</i></li>
+<li><i>SILBERSCHATZ, Abraham; KORTH, S.; SUDARSHAN, Henry F. Sistema de Banco de Dados. 7. ed. Rio de Janeiro: GEN LTC, 2020. 754 p.</i></li>
+</ul>
 
 ###
 
